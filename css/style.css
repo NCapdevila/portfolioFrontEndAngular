@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Ibarra+Real+Nova:ital,wght@0,700;1,400&display=swap");
+
+/*font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Ibarra Real Nova', serif;*/
+
+body {
+  background: linear-gradient(to right, #e8f9fd, #79dae8, #0aa1dd, #2155cd);
+}
+.fondoHome {
+  background-image: url(../img/home3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2155cd;
+  text-align: center;
+}
+p {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-weight: 400;
+  font-style: italic;
+  color: #301801c2;
+}
+
+h2 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 700;
+  color: rgb(148, 106, 0);
+}
+
+.imgObjetivo {
+  height: 50%;
+  width: 50%;
+}
+
+footer,
+.nav {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+}
